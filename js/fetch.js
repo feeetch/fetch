@@ -14,7 +14,7 @@ linkArray.forEach((eachLink) => {
                 break;
 
             case anAutohagiographyLink:
-                fetchPage(eachLink, 'fetch/htmlAC/anAutohagiography.html');
+                fetchPage(eachLink, '/htmlAC/anAutohagiography.html');
                 break;
 
             case theBookOfTheLawLink:
