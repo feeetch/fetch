@@ -18,7 +18,7 @@ linkArray.forEach((eachLink) => {
                 break;
 
             case theBookOfTheLawLink:
-                fetchPage(eachLink, 'fetch/htmlAC/theBookOfTheLaw.html');
+                fetchPage(eachLink, '/fetch/htmlAC/theBookOfTheLaw.html');
                 break;
 
             case moonchildLink:
