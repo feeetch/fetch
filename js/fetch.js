@@ -10,23 +10,23 @@ linkArray.forEach((eachLink) => {
     eachLink.addEventListener('click', (e) => {
         switch (eachLink) {
             case biographyLink:
-                fetchPage(eachLink, '/htmlAC/biography.html');
+                fetchPage(eachLink, '/fetch/htmlAC/biography.html');
                 break;
 
             case anAutohagiographyLink:
-                fetchPage(eachLink, '/htmlAC/anAutohagiography.html');
+                fetchPage(eachLink, '/fetch/htmlAC/anAutohagiography.html');
                 break;
 
             case theBookOfTheLawLink:
-                fetchPage(eachLink, '/htmlAC/theBookOfTheLaw.html');
+                fetchPage(eachLink, '/fetch/htmlAC/theBookOfTheLaw.html');
                 break;
 
             case moonchildLink:
-                fetchPage(eachLink, '/htmlAC/moonchild.html');
+                fetchPage(eachLink, '/fetch/htmlAC/moonchild.html');
                 break;
 
             case theBookOfTheLiesLink:
-                fetchPage(eachLink, '/htmlAC/theBookOfTheLies.html');
+                fetchPage(eachLink, '/fetch/htmlAC/theBookOfTheLies.html');
                 break;
         }
     })
