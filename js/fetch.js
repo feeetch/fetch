@@ -10,7 +10,7 @@ linkArray.forEach((eachLink) => {
     eachLink.addEventListener('click', (e) => {
         switch (eachLink) {
             case biographyLink:
-                fetchPage(eachLink, 'fetch/htmlAC/biography.html');
+                fetchPage(eachLink, '../htmlAC/biography.html');
                 break;
 
             case anAutohagiographyLink:
@@ -26,7 +26,7 @@ linkArray.forEach((eachLink) => {
                 break;
 
             case theBookOfTheLiesLink:
-                fetchPage(eachLink, 'fetch/htmlAC/theBookOfTheLies.html');
+                fetchPage(eachLink, '../htmlAC/theBookOfTheLies.html');
                 break;
         }
     })
